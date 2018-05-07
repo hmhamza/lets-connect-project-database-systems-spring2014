@@ -1,0 +1,373 @@
+
+#main {
+    position: relative;
+    width: 100%;                   /* 890 */
+   /* padding: 20px 10px 0 70px;*/      /*U D R L*/
+}
+
+#content_page {
+	width: 660px;
+	padding-top:200px;
+    padding-left: 370px;
+    padding-right:310px;
+	/*background: #FFFFFF url(images/img03.jpg) repeat-y;*/
+}
+
+#header_box {
+	
+    width: 660px;	            /* 600 */
+    height: 100px;
+	padding-top: 50px;
+    padding-left: 370px;
+    padding-right:310px;
+    
+}
+
+#chat {
+	float: right;
+	width: 250px;           
+    padding-right:45px;
+    
+}
+
+#sidebar {
+    float: left;
+    width: 270px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+#sidebar_header {
+	/*margin-left: 10px;*/
+	width: 230px;
+	height: 114px;
+	text-align: center;
+	padding: 80px 0 0 0;
+	background: url(../images/b1.jpg) no-repeat top left;
+}
+
+#social_box {
+	display: block;
+	width: 750px;
+	height: 48px;
+	padding: 16px 0px 16px 50px;
+	margin-bottom: 20px;
+	background: url(../images/templatemo_social_box.jpg) no-repeat;
+}
+
+#social_box li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0 104px 0 0;
+}
+
+#social_box li a {
+	width: 48px;
+	height: 48px;
+	margin-right: 60px;
+}
+
+
+
+#content { 
+	height: 455px;          /* 455 */
+	width: 600px;           /* 600 */
+	background: url(../images/templatemo_content.jpg) no-repeat;
+}
+
+.scroll {
+    height: 455px;           /* 455 */
+    width: 600px;           /* 600 */
+    overflow: auto;
+/*  overflow-x: hidden; */
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    padding: 30px;
+    height: 395px;      /* 395 */
+    width: 540px;
+}
+
+ul.navigation {
+	width: 270px;           /* 270 */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	text-align: left;
+}
+
+ul.navigation li {
+    display: inline-block;
+    margin: 0px;
+	padding: 0;
+}
+
+ul.navigation a {
+	display: block;
+	width: 190px;
+	height: 33px;
+	padding: 12px 0 0 80px;
+	margin-bottom: 5px;
+	color: #8a8980;
+	font-size: 16px;
+	font-weight: normal;
+    text-decoration: none;
+	position: relative;
+    top: -2px;
+    left: -4px;
+}
+
+ul.navigation a .ui_icon { position: absolute; top: 0; left: 15px; width: 40px; height: 40px; }
+
+ul.navigation a .home { background: url(../images/templatemo_home.png) no-repeat; }
+ul.navigation a .newsfeed { background: url(../images/profileBW.png) no-repeat; }
+ul.navigation a .messages { background: url(../images/templatemo_home.png) no-repeat; }
+ul.navigation a .friends { background:  url(../images/profileBW.png) no-repeat; }
+ul.navigation a .photos { background:  url(../images/templatemo_home.png) no-repeat; }
+ul.navigation a .find_friends { background:  url(../images/templatemo_portfolio.png) no-repeat; }
+
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #201f1b;
+	background: url(../images/templatemo_menu_hover.png) no-repeat left;
+}
+
+ul.navigation a:hover .home, ul.navigation a.selected .home {
+	background: url(../images/templatemo_home_hover.png) no-repeat;
+}
+ul.navigation a:hover .newsfeed, ul.navigation a.selected .profile {
+	background: url(../images/profile.png) no-repeat;
+}
+ul.navigation a:hover .messages, ul.navigation a.selected .messages {
+	background: url(../images/templatemo_home_hover.png) no-repeat;
+}
+
+ul.navigation a:hover .friends, ul.navigation a.selected .gallery {
+	background: url(../images/profile.png) no-repeat;
+}
+
+ul.navigation a:hover .photos, ul.navigation a.selected .gallery {
+	background: url(../images/templatemo_home_hover.png) no-repeat;
+}
+
+ul.navigation a:hover .find_friends, ul.navigation a.selected .gallery {
+	background: url(../images/templatemo_portfolio_hover.png) no-repeat;
+}
+
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+	width: 0;
+	height: 0;
+}
+
+.scrollButtons.left {
+    left: -50px;
+}
+
+.scrollButtons.right {
+    right: -50px;
+}
+
+.hide {
+    display: none;
+}
+
+.up_button {
+    padding: 5px;
+    background-color: #57942B;
+    border: 1px solid #ffa853;
+    box-shadow: 0 0 5px 3px #FFF;
+    border-radius: 30px;
+    border: 1px solid #666;
+    color: #FFF;
+    
+    height:37px;
+    text-decoration: none;
+}
+
+ .txtBoxes
+            {
+                background: #d7d1d1;
+                border: 1px #4b5823;
+                border-radius: 5px;
+                height:35px;
+                width:35em;
+                box-shadow: 0 0 5px 3px #4b5823;
+                color: #666;
+                outline: none;
+                resize:none;
+            }
+
+
+        #search
+        {
+            position:relative;
+            background-color:#5c5c54;
+	    left:-1%;
+            height:135px;
+            width:450px;
+        }
+
+          .buttonCss1
+            {
+                    
+                    
+                    background-color:#2a2525;
+                    box-shadow: 0 0 5px 3px #4b5823;
+                    border-radius: 5px;
+                    height:30px;
+                    width:70px;
+                    cursor:pointer;
+                    
+            }
+	    .addfriend
+            {
+                    
+                    
+                    background-color:#2a2525;
+                    box-shadow: 0 0 5px 3px #4b5823;
+                    border-radius: 5px;
+		    position:relative;
+		    left:2%;
+                    height:30px;
+                    width:100px;
+                    cursor:pointer;
+                    
+            }
+        .crossbutton 
+        {
+            cursor:pointer;
+        }
+
+           .txtBoxes1
+            {
+                background: #d7d1d1;
+                border: 1px #4b5823;
+                border-radius: 5px;
+                height:100px;
+                width:35em;
+                box-shadow: 0 0 5px 3px #4b5823;
+                color: #666;
+                outline: none;
+                resize:none;
+            }
+
+        #time1 
+        {
+            
+            position:absolute;
+            left:60%;
+            right:20%;
+           
+
+        }
+
+        #status 
+        {
+            position:relative;
+            background-color:#5c5c54;
+            height:200px;
+            width:110%;
+        }
+
+        #statement
+        {
+           position:relative;
+           left: 1%;
+        }
+        #name 
+        {
+            position:relative;
+            left:15%;
+        }
+
+        #like
+        {
+            position:absolute;
+            top:82%;
+            left:85%;
+        }
+        #statusBox
+        {
+            position:relative;
+            left: 60%;
+        }
+        #comment 
+        {
+            position:absolute;
+            left:70%;
+            top:82%;
+
+        }
+        #likecount 
+        {
+            position:absolute;
+            left:88%;
+            top:82%;
+
+        }
+        #deletepost 
+        {
+            position:absolute;
+            top:1%;
+            left:94%;
+        }
+	#SendMsg
+	{
+		position: relative;
+		left: 60%;
+	}
+	#online
+	{
+		height:100px;
+		width: 100px;
+	}
+	#chatlist
+	{
+		position:relative;
+		background-color:#5c5c54;
+		height:110px;
+		width:110%;
+	}
+	#chatlistalign
+	{
+		position:relative;
+		top:2%;
+		left:3%;
+	}
+	#online
+	{
+		postion:relative;
+		background-color:#5c5c54;
+		height:200px;
+		width:272px;
+	
+	#onlinealign
+	{
+		position:relative;
+		top:2%;
+		left:3%;
+	}
+	#myFrns
+	{
+	    position:relative;
+            background-color:#5c5c54;
+            height:110px;
+            width:110%;
+	}
+	#textAlign
+	{
+		position:relative;
+		top:1%;
+		left:2%;
+	}

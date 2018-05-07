@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>a.jpg</ImageUrl>   
+    <NavigateUrl>http://www.microsoft.com</NavigateUrl>
+    <AlternateText>Microsoft</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>small</Keyword>
+    <Height>100</Height>
+    <Width>100</Width>
+  </Ad>
+  
+</Advertisements>

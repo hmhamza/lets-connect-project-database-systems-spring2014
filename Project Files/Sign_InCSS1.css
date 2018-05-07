@@ -1,0 +1,59 @@
+<style>
+
+body {
+    background-color: #000000;
+}
+
+
+html { 
+    background: url(../I/3d_inspiration-wallpaper-1366x768.jpg) no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.in_button {
+    padding: 5px;
+    background-color: #529ECC;
+    border: 1px solid #ffa853;
+    box-shadow: 0 0 5px 3px #FFF;
+    border-radius: 5px;
+    border: 1px solid #666;
+    color: #FFF;
+   width: 180px;
+    height:30px;
+    text-decoration: none;
+}
+
+.up_button {
+    padding: 5px;
+    background-color: #57942B;
+    border: 1px solid #ffa853;
+    box-shadow: 0 0 5px 3px #FFF;
+    border-radius: 30px;
+    border: 1px solid #666;
+    color: #FFF;
+    width: 80px;
+    height:37px;
+    text-decoration: none;
+}
+
+.txtBoxes{
+    background: white;
+    border: 1px solid #ffa853;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #ffa853;
+    color: #666;
+    width: 180px;
+    height:25px;
+    outline: none;
+}
+
+
+.slider {
+    padding-top: 55px;
+    padding-left:55px;
+}
+
